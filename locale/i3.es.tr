@@ -1,12 +1,9 @@
 # textdomain: i3
-
-### init.lua ###
-
 @1 added in your inventory=@1 añadido a tu inventario
 @1 new recipe(s) discovered!=@1 nueva(s) receta(s) descubierta(s)
 @1 of chance to drop=@1 posibilidad de caer
 @1 spawned=@1 generado
-Achievements: @1 of @2 (@3)=Meta conseguida : @1 de @2 (@3)
+Achievements: @1 of @2 (@3)=Meta conseguida: @1 de @2 (@3)
 Any black dye=Cualquier tinte negro
 Any black flower=Cualquier flor negra
 Any blue dye=Cualquier tinte azul
@@ -48,12 +45,12 @@ Any yellow flower=Cualquier flor amarilla
 Armor=Armadura
 Bag=Mochila
 Bookmarks=Favoritos
-Burning time: @1=Tiempo de combustión : @1
+Burning time: @1=Tiempo de combustión: @1
 Cannot mark this item. Bookmark limit reached.=No se puede marcar como favorito. Límite alcanzado.
 Collect items to reveal more recipes=Coge objetos para revelar nuevas recetas
 Compress items=Comprimir objetos
 Cooking=Cocinar
-Cooking time: @1=Tiempo de cocinado : @1
+Cooking time: @1=Tiempo de cocinado: @1
 Craft (x@1)=Fabricar (x@1)
 Digging=Cavar
 Digging (by chance)=Cavar (por suerte)
@@ -74,7 +71,7 @@ Replaced by @1 on burning=Reemplazado por @1 al quemarse
 Replaced by @1 on crafting=Reemplazado por @1 en fabricación
 Replaced by @1 on smelting=Reemplazado por @1 al fundir
 Shapeless=Sin forma concreta
-Skins=Apariencias
+Skins=Apariencia
 Sort items (A-Z)=Ordenar objetos (A-Z)
 Sort items (Z-A)=Ordenar objetos (Z-A)
 The inventory is extended by @1 slots=El inventario se incrementa en @1 huecos
