@@ -475,7 +475,7 @@ function i3.remove_minitab(name)
 end
 
 i3.new_minitab("all", {
-	description = "All",
+	description = S("All"),
 
 	sorter = function()
 		return true
@@ -483,7 +483,7 @@ i3.new_minitab("all", {
 })
 
 i3.new_minitab("nodes", {
-	description = "Nodes",
+	description = S("Nodes"),
 
 	sorter = function(item)
 		return core.registered_nodes[item]
@@ -491,7 +491,7 @@ i3.new_minitab("nodes", {
 })
 
 i3.new_minitab("items", {
-	description = "Items",
+	description = S("Items"),
 
 	sorter = function(item)
 		return core.registered_craftitems[item] or core.registered_tools[item]

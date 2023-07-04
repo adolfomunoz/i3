@@ -1451,7 +1451,7 @@ local function get_header_items_fs(fs, data)
 	else
 		fs("style[search;bgimg=%s]", PNG.search_hover)
 		image_button(X + 0.35, 0.32, 0.35, 0.35, "", "search", "")
-		fs("tooltip[search;%s;#32333899;#fff]", ES"Search")
+		fs("tooltip[search;%s;#32333899;#fff]", S("Search"))
 
 		if data.enable_search then
 			fs"style[filter;font_size=18]"
@@ -1463,7 +1463,7 @@ local function get_header_items_fs(fs, data)
 			end
 		else
 			fs"style_type[label;font=italic;font_size=18]"
-			label(X + 0.9, 0.49, clr("#aaa", ES"Search..."))
+			label(X + 0.9, 0.49, clr("#aaa", S("Search").."..."))
 			button(X + 0.8, 0.12, 4, 0.8, "enable_search", "")
 			fs"style_type[label;font=normal;font_size=16]"
 		end
