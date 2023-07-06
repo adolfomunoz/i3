@@ -1233,16 +1233,16 @@ local function get_header(fs, data)
 	if nfavs < max_favs or (nfavs == max_favs and fav) then
 		fs("style[fav;fgimg=i3_fav%s.png;fgimg_hovered=i3_fav%s.png]", fav and "" or "_off", fav and "" or "_off")
 		image_button(star_x, star_y, size, size, "", "fav", "")
-		fs("tooltip[fav;%s;#32333899;#fff]", fav and ES"Unbookmark this item" or ES"Bookmark this item")
+		fs("tooltip[fav;%s;#32333899;#fff]", fav and S("Unbookmark this item") or S("Bookmark this item"))
 	else
 		fs("style[nofav;fgimg=%s;fgimg_hovered=%s;fgimg_pressed=%s]",
 			"i3_fav_off.png", PNG.cancel, PNG.cancel)
 		image_button(star_x, star_y, size, size, "", "nofav", "")
-		fs("tooltip[nofav;%s;#32333899;#fff]", ES"Unable to bookmark this item, limit reached")
+		fs("tooltip[nofav;%s;#32333899;#fff]", S("Unable to bookmark this item, limit reached"))
 	end
 
 	image_button(star_x + 0.05, star_y + 0.6, size, size, "", "exit", "")
-	fs("tooltip[exit;%s;#32333899;#fff]", ES"Back to item list")
+	fs("tooltip[exit;%s;#32333899;#fff]", S("Back to item list"))
 
 	local desc_lim, name_lim = 34, 35
 	local desc = get_desc(data.query_item, data.lang_code)
@@ -1470,7 +1470,7 @@ local function get_header_items_fs(fs, data)
 
 		if true_str(data.filter) then
 			image_button(X + 4.3, 0.4, 0.2, 0.2,  "", "cancel", "")
-			fs("tooltip[cancel;%s;#32333899;#fff]", ES"Clear")
+			fs("tooltip[cancel;%s;#32333899;#fff]", S("Clear"))
 			box(X + 0.85, 0.75, 3.74, 0.01, "#f9826c")
 		end
 	end
